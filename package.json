@@ -12,6 +12,6 @@
   },
   "scripts": {
     "test": "jest",
-    "killthemall": "rm -rf ./src/*.ts  && rm -rf ./__tests__/*.ts"
+    "killthemall": "rm -rf ./src/*  && rm -rf ./__tests__/*"
   }
 }
