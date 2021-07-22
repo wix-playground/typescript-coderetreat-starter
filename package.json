@@ -11,6 +11,7 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "killthemall": "rm -rf ./src/*.ts  && rm -rf ./__tests__/*.ts"
   }
 }
